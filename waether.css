@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Bebas+Neue&family=Comforter+Brush&family=Dancing+Script:wght@600&family=Kanit:ital,wght@1,300&family=Merriweather:ital,wght@0,400;1,300;1,400&family=Noto+Sans:ital@1&family=Oswald:wght@300&family=Pacifico&family=Peralta&family=Permanent+Marker&family=Roboto+Mono&family=Rubik&family=Rubik+Distressed&family=Satisfy&family=Silkscreen&family=Sono&family=Source+Code+Pro:wght@600&family=Teko:wght@600&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    margin: 0;
+  background-image: url('./landscape.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.box {
+  margin-top: 20px;
+  background-color: #000000d0;
+  color: whitesmoke;
+  padding: 3em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0em;
+  font-family: 'Passion One', cursive;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0.2em;
+  border-radius: 50%;
+  height: 35px;
+  width: 40px;
+  border: none;
+  outline: none;
+  background-color: #7c7c7c2b;
+  color: white;
+}
+
+button:hover {
+  background-color: #7c7c7c6b;
+}
+
+#cityname {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%px;
+  border-radius: 30px;
+  padding: 15px;
+  background-color: #7c7c7c2b;
+  color: white;
+}
+
+#weatherdetails {
+  margin-top: 28px;
+}
+
